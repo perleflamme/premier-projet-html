@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    color: darkred;
+}
+
+p {
+    border: 3px solid lightsteelblue;
+    border-radius: 3%;
+    width: 800px;
+    /*margin = décalage par rapport à un bord*/
+    margin-left: 30%;
+    margin-top: 50px;
+    /*padding = décalage par rapport a la marge intérieure*/
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+img {
+    margin-right: 50px;
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+
+}
+
+body {
+    background-color: blanchedalmond;
+}

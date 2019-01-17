@@ -1,0 +1,26 @@
+/*taille et largeur de toutes les images*/
+img {
+    height : 300px;
+    width : 450px;
+    opacity: 0.9;
+
+}
+/*couleur de tout les paragraphes*/
+p{
+   color:blue ;
+    background-color:goldenrod;
+    text-align: right;
+    text-decoration: line-through;
+
+}
+/* aligner center /left /right*/
+h1{
+    text-align: center;
+    /*ajoute une propriété au texte ex: souligner*/
+    text-decoration: underline;
+}
+
+body{
+    background-image: url("../images/pizzaruined.jpg");
+    /*mettre une image de fond, si background-image :*/
+}

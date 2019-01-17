@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="../css/formulaire.css"/>
+
+
+</head>
+<body>
+<table>
+    <div>
+
+
+        <form action="inscription" method="POST">
+            <fieldset>
+                <legend>Inscription</legend>
+
+                <label for="nom">Votre nom: </label> <br/>
+                <input type="text" name="nom" id="nom"/>
+                <br/>
+
+                <label for="prenom">Votre prénom</label><br/>
+                <input type="text" name="prenom" id="prenom"/>
+                <br/>
+
+                <label>color:</label><br/>
+                <input type="color" name="couleur"/>
+                <br/>
+                <!--value=" " met un mot dans le cadre / placeholder=" " met un mot qui ne remplit pas de champ. -->
+                <label for="email">email:</label><br/>
+                <input type="email" name="email" id="email" placeholder="ex @gmail.com"/>
+                <br/>
+
+                <label for="condtion">checkbox:</label><br/>
+                <input type="checkbox" name="condtion" id="condtion"/>
+                <br/>
+
+                <label for="telephone">tel:</label><br/>
+                <input type="tel" name="telephone" id="telephone"/>
+                <br/>
+
+                <label for="date_de_naissance">date:</label><br/>
+                <input type="date" name="date_de_naissance" id="date_de_naissance"/>
+                <br/>
+
+                <label for="heure">time:</label><br/>
+                <input type="time" name="heure" id="heure"/>
+                <br/>
+
+                <label for="note">number:</label><br/>
+                <input type="number" name="note" id="note" min="1" max="99"/>
+                <br/>
+
+                <label for="mot_de_passe">password</label><br/>
+                <input type="password" name="mot_de_passe" id="mot_de_passe"/>
+                <br/>
+
+                <label for="range">Range:</label><br/>
+                <input type="range" name="range" id="range"/>
+                <br/>
+
+                <input type="submit" value="envoyer le formulaire"/>
+                <br/>
+
+                <input type="button" name="btn" value="Coucou"/>
+                <button>Valider</button>
+
+                <br/>
+                <label>Radio:</label><br/>
+                Mme: <input type="radio" name="civilite" checked/><br/>
+                Mr: <input type="radio" name="civilite"><br/>
+
+                <br/>
+
+                <label>Ville</label><br/>
+                <select name="ville">
+                    <option value="Lille">Lille</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Marseille" selected>Marseille</option>
+                </select>
+                <br/>
+                <label for="comment">Comment :</label><br/>
+                <textarea name="comment" id="comment"></textarea>
+
+            </fieldset>
+        </form>
+    </div>
+</table>
+
+</body>
+</html>

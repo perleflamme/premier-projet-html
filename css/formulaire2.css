@@ -1,0 +1,64 @@
+label{
+    color :darkred;
+    font-size: 20px;
+}
+
+table{
+    border-collapse: collapse;
+
+
+}
+
+
+
+input{
+    background-color: palegoldenrod;
+    border-radius: 5%;
+
+
+}
+
+body{
+    background-color: burlywood;
+
+
+}
+
+form{
+
+    width: 350px;
+    margin-left:33%;
+    background-color: burlywood;
+    border-color: darkred;
+    border-radius: 5%;
+
+}
+
+th {
+    border: maroon 2px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: darkred;
+}
+
+body{
+    margin: auto;
+
+}
+
+
+textarea{
+    height: 150px;
+    width: 320px;
+}
+
+legend{
+    color:darkred;
+    font-weight: bold;
+}
+
+.field{
+    width: 320px;
+
+
+}

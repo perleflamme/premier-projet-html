@@ -1,0 +1,89 @@
+h1 {
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 50px;
+}
+
+img {
+    height: 300px;
+    width: 250px;
+}
+
+p {
+    font-size: 20px;
+    border: 1px black solid;
+    border-radius: 2%;
+}
+
+h2 {
+    color: red;
+    border: 1px slategrey dashed;
+
+}
+
+h3 {
+    color: coral;
+    border: 1px darkolivegreen dashed;
+}
+
+/*permet de cibler l'id d'un paragraphe et lui appliquer une ou plusieurs conditions*/
+#para01 {
+    color: orangered;
+    background-color: lightgrey;
+    width: 500px;
+}
+
+#para02 {
+    color: orangered;
+    background-color: lightgrey;
+    width: 500px;
+}
+
+#para03 {
+    color: orangered;
+    background-color: lightgrey;
+    width: 500px;
+}
+
+#para04 {
+    color: orangered;
+    background-color: lightgrey;
+    width: 500px;
+}
+
+#titre02 {
+    color: brown;
+    background-color: bisque;
+    text-align: center;
+}
+
+
+#titre03 {
+    color: brown;
+    background-color: bisque;
+    text-align: center;
+}
+
+
+.changedims {
+    /*pour changer les variables de tout ce qui fait partie de la même classe*/
+    height:400px;
+    width: 350px;
+
+}
+#lien__sympa{
+    border: 3px dashed darkred;
+    font-size:30px;
+    background-color: bisque;
+    color: darkolivegreen;
+}
+
+#lien_sympa:hover{
+    font-size: 33px;
+    color:darkred;
+    text-decoration: underline;
+
+}
+
+
+

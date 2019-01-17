@@ -1,0 +1,41 @@
+p {
+    background-color: darkred;
+}
+
+h1 {
+    background-color: darkolivegreen;
+}
+
+h6 {
+    background-color: lightsteelblue;
+}
+
+img {
+    background-color: darkgoldenrod;
+
+}
+
+div {
+    background-color: darkseagreen;
+
+}
+
+span {
+    font-weight: bold;
+    background-color: peru;
+    font-size: 24px;
+}
+
+#inlineMot {
+    color: red;
+    font-size: 56px;
+    background-color: peru;
+    font-style: italic;
+}
+
+#blockMot {
+    color: red;
+    font-size: 100px;
+    font-style: italic;
+    background-color: antiquewhite;
+}

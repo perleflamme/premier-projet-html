@@ -1,0 +1,15 @@
+table {
+    border-collapse: collapse;
+    margin-left:30%;
+    margin-top:50px;
+    background-color: burlywood;
+
+}
+/*applique le traitement a plusieurs balises avec un ,*/
+td, th {
+    border: maroon 2px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: darkred;
+}
+
